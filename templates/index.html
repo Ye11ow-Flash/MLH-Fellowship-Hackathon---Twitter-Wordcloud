@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form action="{{ url_for('handle_data') }}" method="post">
+            <input type="text" name="projectFilepath">
+            <input type="datetime" name="start_date">
+            <input type="datetime" name="end_date">
+            <input type="submit">
+        </form>
+
+        <img id="picture" src="data:image/jpeg;base64,{{ img_data }}">
+    </body>
+</html>
+
