@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Twiiter Wordcloud</title>
+  <title>Twitter Wordcloud</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -59,7 +59,7 @@
 
       <img src="{{ url_for('static',filename='assets/img/hero-img.png') }}" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
       <form action="{{ url_for('handle_data') }}" method="post">
-            <input type="text" name="projectFilepath" style="width: 420px; border-radius:25px; padding: 8px 36px;">
+            <input type="text" autocomplete="off" name="projectFilepath" style="width: 420px; border-radius:25px; padding: 8px 36px;">
             <!-- <input type="datetime" name="start_date">
             <input type="datetime" name="end_date"> -->
             <input class="btn-get-started" type="submit">

@@ -132,7 +132,7 @@ def handle_data():
     # startDate = request.form['start_date']
     # endDate = request.form['end_date']
 
-    tweet_df = extract_tweets(projectpath, '2020-01-01T00:00:00Z', '2020-01-10T00:00:00Z')
+    tweet_df = extract_tweets(projectpath, '2022-09-01T00:00:00Z', '2022-09-10T00:00:00Z')
     # print(tweet_df)
 
     Tweet_Texts_Cleaned = clean_tweets()
